@@ -1,0 +1,21 @@
+# Lokale instellingen en geheimen
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# Privéwerk: nooit publiceren
+private/
+confidential/
+# Systeem en tijdelijke bestanden
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+~$*
+# Eventuele toekomstige software
+node_modules/
+dist/
+build/
+.venv/
+__pycache__/
